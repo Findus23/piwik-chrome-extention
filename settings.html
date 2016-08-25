@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Piwik Einstellungen</title>
+</head>
+<body>
+<form id="form">
+    <fieldset>
+        <div>
+            <label for="url">Piwik URL</label>
+            <input type="url" id="url" required>
+        </div>
+        <div>
+            <label for="accessToken">Access Token</label>
+            <input type="text" id="accessToken" required>
+        </div>
+        <div>
+            <label for="siteId">Site ID</label>
+            <input type="number" id="siteId" required>
+        </div>
+
+        <div>
+            <label for="badgelastHours">Badge last (hours)</label>
+            <input type="number" id="badgelastHours" required>
+        </div>
+        <div>
+            <label for="badgeRefresh">Badge refresh (minutes)</label>
+            <input type="number" id="badgeRefresh" required>
+        </div>
+        <div>
+            <label for="listMax">List Maximum</label>
+            <input type="number" id="listMax" required>
+        </div>
+        <div>
+            <label for="listLastDays">List last days</label>
+            <input type="number" id="listLastDays" required>
+        </div>
+        <input type="submit" value="Save">
+        <div id="status"></div>
+
+    </fieldset>
+</form>
+<script src="settings.js"></script>
+</body>
+</html>
