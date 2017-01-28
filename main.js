@@ -76,7 +76,7 @@ function updateVisitorLog() {
                 var td = tr.appendChild(document.createElement('td'));
                 if (key.indexOf("Icon") !== -1 || key.indexOf("Flag") !== -1) {
                     if (visitor[key]) {
-                        td.innerHTML = "<img src='" + s.url + visitor[key] + "'>";
+                        td.innerHTML = "<img height='16px' src='" + s.url + visitor[key] + "'>";
                     }
                 } else if (key == "referrerUrl" && visitor[key]) {
                     var link = document.createElement('a');
