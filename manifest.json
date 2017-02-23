@@ -17,7 +17,10 @@
       "main.js"
     ]
   },
-  "options_page": "settings.html",
+  "options_ui": {
+    "page": "settings.html",
+    "chrome_style": true
+  },
   "permissions": [
     "storage",
     "http://*/*",

@@ -16,6 +16,7 @@ function save_options(evt) {
         // Update status to let user know options were saved.
         console.log("saved");
         status.textContent = 'Options saved.';
+        window.close();
     });
 }
 
